@@ -8,7 +8,7 @@ import {Student} from './student'
 })
 export class StudentListComponent implements OnInit {
 student:Student[];
-  constructor() {
+constructor() {
 this.student = [
 new Student("ზაური","Berdzenishvili",201705227),
 new Student("ზვიადი","Berdzenishvili",301705227),
