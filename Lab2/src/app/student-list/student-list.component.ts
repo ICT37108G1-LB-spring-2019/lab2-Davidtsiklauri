@@ -10,9 +10,9 @@ export class StudentListComponent implements OnInit {
 student:Student[];
 constructor() {
 this.student = [
-new Student("ზაური","Berdzenishvili",201705227),
-new Student("ზვიადი","Berdzenishvili",301705227),
-new Student("ზურაბი","Berdzenishvili",601705227)];
+new Student("ზაური","ბერძენიშვილი",201705227),
+new Student("ზვიადი","ბერძენიშვილი",301705227),
+new Student("ზურაბი","ბერძენიშვილი",601705227)];
 
 
    }
